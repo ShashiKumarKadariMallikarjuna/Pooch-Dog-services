@@ -1,0 +1,70 @@
+/***************************************/
+/*            Typography               */
+/***************************************/
+
+// Main font variables
+$zilla-slab: "Zilla Slab", serif;
+$red-hat-display: "Red Hat Display", sans-serif;
+$oswald:  'Oswald', sans-serif;
+$cherry-swash: 'Cherry Swash', cursive;
+
+.pooch-brand {
+  font-family: $oswald;
+  font-size: 4vw;
+}
+
+.pooch-navbar-item {
+  font-family: $cherry-swash;
+  //font-size: 1.2vw;
+}
+
+.pooch-title {
+  font-family: $cherry-swash;
+  font-size: 2.5vw;
+  font-weight: 500;
+  margin: 1vw;
+}
+
+.pooch-subtitle {
+  font-family: $red-hat-display;
+  font-size: calc(20px);
+  font-weight: 500;
+}
+
+body {
+  font-family: $red-hat-display;
+  font-size: calc(16px);
+}
+
+.trak_body {
+  font-family: $red-hat-display;
+  font-size: calc(16px);
+}
+
+.trak_body-small {
+  font-family: $red-hat-display;
+  font-size: calc(10px);
+}
+
+.trak_footer {
+  font-family: $red-hat-display;
+  font-size: 10px;
+  color: #9a9c9f;
+  line-height: 20px;
+}
+
+/***************************************/
+/*            Media Queries            */
+/***************************************/
+
+@media screen and (min-width: 1200px) {
+  // setting max font size based on Amasa Design System
+  body {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .pooch-subtitle {
+    font-size: 36px;
+  }
+}

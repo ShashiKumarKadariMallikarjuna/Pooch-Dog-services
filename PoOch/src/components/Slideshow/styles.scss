@@ -1,0 +1,168 @@
+.slide-container {
+    margin-top: 12%;
+}
+
+.each-slide {
+    width: 80vw;
+}
+
+.slide-arrow {
+    font-size: 200%;
+}
+
+#pets-message {
+    position: absolute;
+    top: 25%;
+    left: 64%;
+    width: 25%;
+    background-color: rgba(220, 220, 220, 0.0);
+    line-height: 1.1;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 15px;
+    border-color: rgba(210, 210, 210, 0.01);
+    border-width: medium;
+    border-style: double;
+    color: white;
+    font-size: 2vw;
+}
+
+#pets-message:hover {
+    .slide-arrow {
+        color: rgb(255, 195, 117);
+        transform: translateX(5%);
+        transition-duration: 0.5s;
+    }
+}
+
+#walkers-message {
+    position: absolute;
+    top: 23%;
+    left: 15%;
+    width: 25%;
+    background-color: rgba(220, 220, 220, 0.0);
+    line-height: 1.1;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 15px;
+    border-color: rgba(210, 210, 210, 0.01);
+    border-width: medium;
+    border-style: double;
+    color: white;
+    font-size: 2vw;
+
+}
+
+#walkers-message:hover {
+    .slide-arrow {
+        color: rgb(245, 220, 107);
+        transform: translateX(5%);
+        transition-duration: 0.5s;
+    }
+}
+
+#boarders-message {
+    position: absolute;
+    top: 48%;
+    left: 64%;
+    width: 25%;
+    background-color: rgba(220, 220, 220, 0.0);
+    line-height: 1.1;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 15px;
+    border-color: rgba(210, 210, 210, 0.01);
+    border-width: medium;
+    border-style: double;
+    color: white;
+    font-size: 2vw;
+}
+
+#boarders-message:hover {
+    .slide-arrow {
+        color: rgb(158, 245, 102);
+        transform: translateX(5%);
+        transition-duration: 0.5s;
+    }
+}
+
+#services-message {
+    position: absolute;
+    top: 70%;
+    left: 12%;
+    width: 25%;
+    background-color: rgba(220, 220, 220, 0.0);
+    line-height: 1.1;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 15px;
+    border-color: rgba(210, 210, 210, 0.01);
+    border-width: medium;
+    border-style: double;
+    color: white;
+    font-size: 2vw;
+}
+
+#services-message:hover {
+    .slide-arrow {
+        color: rgb(107, 245, 165);
+        transform: translateX(5%);
+        transition-duration: 0.5s;
+    }
+}
+
+#meetup-message {
+    position: absolute;
+    top: 72%;
+    left: 64%;
+    width: 25%;
+    background-color: rgba(220, 220, 220, 0.0);
+    line-height: 1.1;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 15px;
+    border-color: rgba(210, 210, 210, 0.01);
+    border-width: medium;
+    border-style: double;
+    color: white;
+    font-size: 2vw;
+}
+
+#meetup-message:hover {
+    .slide-arrow {
+        color: rgb(107, 213, 245);
+        transform: translateX(5%);
+        transition-duration: 0.5s;
+    }
+}
+
+#records-message {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    width: 25%;
+    background-color: rgba(220, 220, 220, 0.0);
+    line-height: 1.1;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 15px;
+    border-color: rgba(210, 210, 210, 0.01);
+    border-width: medium;
+    border-style: double;
+    color: white;
+    font-size: 2vw;
+}
+
+#records-message:hover {
+    .slide-arrow {
+        color: rgb(188, 117, 255);
+        transform: translateX(5%);
+        transition-duration: 0.5s;
+    }
+}

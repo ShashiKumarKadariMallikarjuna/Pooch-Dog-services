@@ -1,0 +1,14 @@
+// See Navbar/styles.scss for rest of styling
+  #new-tip {
+    margin-top: 21vh;
+    margin-left: 70%;
+    font-weight: 600;
+    font-size: 100%;
+  }
+
+  #dropdown-item:hover {
+    transform: scale(1.02);
+    font-weight: 600;
+    transition-duration: 0.1s;
+    cursor: pointer;
+  }
