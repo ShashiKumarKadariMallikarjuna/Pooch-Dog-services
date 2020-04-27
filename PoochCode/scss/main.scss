@@ -1,0 +1,69 @@
+/*
+
+Theme bootstrap
+https://getbootstrap.com/docs/4.0/getting-started/theming/
+
+*/
+
+// To modify an existing color in our $theme-colors map, or
+// to add a new color to $theme-colors, add the new key and value:
+$theme-colors: (
+  "primary": #282c34, // Button
+  "primary-dark": gray, // Button hover?
+  "secondary-dark": #dde1e7,
+  "accent": #f2d292,
+  "light": #f2f4f7,
+  "error": #f44336,
+  "bg-primary": #dadada // Login box background
+);
+
+$enable-responsive-font-sizes: true;
+
+// extend spacer variable for custom spacing
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge(
+  (
+    5.5: (
+      calc(3px + 3vw + 4vh)
+    ),
+    6: (
+      calc(4px + 4vw + 4vh)
+    ),
+    7: (
+      calc(4px + 8vw + 8vh)
+    ),
+    8: (
+      calc(4px + 12vw + 12vh)
+    ),
+    9: (
+      calc(4px + 16vw + 16vh)
+    ),
+    10: (
+      calc(4px + 20vw + 20vh)
+    )
+  ),
+  $spacers
+);
+
+// then import Bootstrap
+@import "bootstrap";
+
+// import typography
+@import "typography.scss";
+
+// import social
+@import "bootstrap-social.scss";
+
+body {
+  overflow-x: hidden;
+  background-color: white; // Main background of page
+  font-size: calc(10px + 2vmin);
+  color: rgb(40, 40, 40); // Text color
+}
+
+// // React css
+.App {
+  text-align: center;
+}
+
