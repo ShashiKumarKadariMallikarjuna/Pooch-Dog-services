@@ -1,0 +1,24 @@
+#password-box {
+    width: 30vw;
+    padding: 7%;
+    background-color: rgb(216, 216, 218);
+    border-radius: 15px;
+    border-style: outset;
+    border-width: medium;
+    border-color: rgb(230, 230, 230);
+}
+
+#email-button {
+    width: 5vw;
+    margin-top: 1vh;
+    margin-right: 1vw;
+    background-color: rgb(120, 120, 120);
+    color: white;
+    border-radius: 5px;
+    font-size: 0.75vw;
+}
+
+#email-button:hover {
+    cursor: pointer;
+    background-color: rgb(100, 100, 100);
+}

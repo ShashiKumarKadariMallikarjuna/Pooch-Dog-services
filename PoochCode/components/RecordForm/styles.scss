@@ -1,0 +1,89 @@
+#record-form {
+  margin-top: 25vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 25vh;
+}
+
+#record-row {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#record {
+    position: relative;
+    max-width: 15vw;
+    width: 15vw;
+    transform: scale(1);
+    margin-right: 5%;
+    margin-bottom: 1%;
+}
+
+.record-preview {
+    max-width: 20vh;
+    transform: scale(1);
+}
+
+#upload-box {
+    background-color: rgb(216, 216, 218);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin-left: 37%;
+    margin-right: 37%;
+    border-radius: 10px;
+}
+
+#delete-record-popup {
+    position: absolute;
+    margin-top: 11%;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    margin-left: 30%;
+    margin-right: 30%;
+    //height: 13vh;
+    min-height: 150px;
+    background-color: rgb(140, 140, 140);
+    border-radius: 10px;
+    font-weight: 600;
+  }
+
+  #error-message {
+    position: fixed;
+    top: 30%;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    margin-left: 43%;
+    margin-right: 43%;
+    background-color: rgb(140, 140, 140);
+    border-radius: 10px;
+    font-weight: 600;
+  }
+
+  #delete-preview {
+    max-width: 80vw;
+    position: absolute;
+    width: 80vw;
+    margin-top: 3vh;
+    left: -40vh;
+    border-radius: 1vw;
+    border-width: 3vw;
+    border-style: solid;
+    border-color: rgb(215, 215, 215);
+    margin-bottom: 5vh;
+  }
+
+  #upload-step1 {
+    margin-left: 22vw;
+    margin-bottom: 1vh;
+  }
+
+  #upload-step2 {
+    margin-left: 12vw;
+    margin-top: 1vh;
+  }

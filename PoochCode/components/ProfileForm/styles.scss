@@ -1,0 +1,234 @@
+#profile-form {
+    margin-top: 25vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 25vh;
+}
+
+#profile-loader {
+    margin-top: 20%;
+}
+
+.signup {
+    background-color: #eeeeee;
+    border-radius: 40px;
+    border-width: 1px;
+}
+
+.signup:hover {
+    background-color: rgb(216, 216, 218);
+    transition-duration: 0.5s;
+}
+
+.profile-box {
+    background-color: rgb(216, 216, 218);
+    border-radius: 5px;
+}
+
+#edit-profile-pic-input {
+    width: 15%;
+    font-size: 50%;
+}
+
+#edit-profile-pic-input:hover {
+    background-color: rgb(216, 216, 218);
+    transition-duration: 0.5s;
+}
+
+#edit-profile-pic-button {
+    width: 7;
+    font-size: 50%;
+}
+
+#edit-profile-pic-button:hover {
+    background-color: rgb(216, 216, 218);
+    transition-duration: 0.5s;
+}
+
+#parent-bio {
+    color: rgb(100, 100, 100);
+    font-size: 75%;
+}
+
+#walker-bio {
+    color: rgb(100, 100, 100);
+    font-size: 75%;
+}
+
+#boarder-bio {
+    color: rgb(100, 100, 100);
+    font-size: 75%;
+}
+
+#tooltip {
+    font-size: 50%;
+}
+
+.profile-pic {
+    width: 100%;
+    height: 100%;
+    max-width: 9vw;
+    max-height: 9vw;
+    border-radius: 100%;
+    transform: scale(1);
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(200, 200, 200);
+  }
+
+#new-parent-profile {
+    background-color: rgb(216, 216, 218);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 10px;
+    border-style: outset;
+    border-width: medium;
+    border-color: rgb(230, 230, 230);
+}
+
+#new-walker-profile {
+    background-color: rgb(216, 216, 218);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 10px;
+    border-style: outset;
+    border-width: medium;
+    border-color: rgb(230, 230, 230);
+}
+
+#new-boarder-profile {
+    background-color: rgb(216, 216, 218);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 10px;
+    border-style: outset;
+    border-width: medium;
+    border-color: rgb(230, 230, 230);
+}
+
+#parent-profile {
+    background-color: rgb(216, 216, 218);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 10px;
+    border-style: outset;
+    border-width: medium;
+    border-color: rgb(230, 230, 230);
+}
+
+#walker-profile {
+    background-color: rgb(216, 216, 218);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 10px;
+    border-style: outset;
+    border-width: medium;
+    border-color: rgb(230, 230, 230);
+}
+
+#boarder-profile {
+    background-color: rgb(216, 216, 218);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin-left: 33%;
+    margin-right: 33%;
+    border-radius: 10px;
+    border-style: outset;
+    border-width: medium;
+    border-color: rgb(230, 230, 230);
+}
+
+#profile-error {
+    color: red;
+}
+
+#username {
+    background-color: rgb(216, 216, 218);
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 10px;
+}
+
+#delete-popup {
+    position: fixed;
+    top: 30%;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 1%;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: rgb(140, 140, 140);
+    color: black;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.popup-button {
+    border-radius: 10px;
+    font-size: 1.5vw;
+}
+
+#loader {
+    display: block;
+}
+
+.profile-input {
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+    background-color: white;
+    border-style: double;
+    border-width: medium;
+    border-color: rgb(230, 230, 230);
+    width: 100%;
+    font-size: 1.5vw;
+}
+
+#featured-images {
+    background-color: rgb(200, 200, 200);
+    border-radius: 10px;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+}
+
+.feature-input {
+    transform: scale(0.75);
+    max-width: 140%;
+}
+
+.feature-pic {
+    transform: scale(1);
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 20vw;
+    max-height: 20vw;
+    border-radius: 15px;
+}
+
